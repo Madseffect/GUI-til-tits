@@ -37,20 +37,10 @@
     <div class="col-md-12">
         <div class="col-md-1"></div>
         <div class="col-md-3">
-            <button type="button" class="btn btn-primary recentButton" data-toggle="modal" data-target="#myModal" data-text="Projekt1">Recent project 1</button>
-            <button type="button" class="btn btn-primary recentButton" data-toggle="modal" data-target="#myModal" data-text="Projekt2">Recent project 2</button>
-            <button type="button" class="btn btn-primary recentButton" data-toggle="modal" data-target="#myModal" data-text="Projekt3">Recent project 3</button>
+            <button type="button" class="btn btn-primary regTime" data-toggle="modal" data-target="#myModal" data-text="regTime">Register time</button>
+
         </div>
-        <!--search function-->
 
-
-        <div class="col-md-7">
-            <div class="input-group">
-
-                <input id="search" type="text" class="form-control" name="search" placeholder="Search for projects!">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
-            </div>
-        </div>
         <div class="col-md-1"></div>
     </div>
     <!-- calendar -->
@@ -68,25 +58,47 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title" id="modal-title"></h4>
+                    <h4 class="modal-title" id="modal-title">No project selected</h4>
                 </div>
                 <div class="modal-body">
+                    <div class="col-md-12">
+
+                        <button type="button" class="btn btn-primary recentButton ">Recent project 1</button>
+                        <button type="button" class="btn btn-primary recentButton">Recent project 2</button>
+                        <button type="button" class="btn btn-primary recentButton">Recent project 3</button>
+
+                    </div>
+
+                    <div class="col-md-12"></div>
+
+                    <!--search function-->
+
+                    <div class="col-md-12">
+                        <div class="input-group">
+
+                            <input id="search" type="text" class="form-control" name="search" placeholder="Search for projects!" >
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                        </div>
+                    </div>
+
+                    <!--date time-->
                     <div class="col-md-6">
                         <h3>Fra</h3> <input type="datetime-local">
                     </div>
                     <div class="col-md-6">
                         <h3>Til</h3> <input type="datetime-local">
                     </div>
-                    <div class="input-group">
-                        <span class="input-group-addon">Notes to developer</span>
-                        <input id="msg" type="text" class="form-control" name="msg" placeholder="Remember to write stuff">
+                    <div class="col-md-12">
+                    <h3>Developer comments</h3>
+                    <textarea rows="4" cols="50" placeholder="What did you do?"></textarea>
                     </div>
-                    <div class="input-group">
-                        <span class="input-group-addon">Notes to customer</span>
-                        <input id="msg" type="text" class="form-control" name="msg" placeholder="Remember to write stuff">
+                    <div class="col-md-12">
+                    <h3>Customer comments</h3>
+                    <textarea rows="4" cols="50" placeholder="What did you do for the customer?"></textarea>
                     </div>
 
                 </div>
+                <!--save and close buttons-->
                 <div class="modal-footer">
                     <button type="button" class="btn btn-success" data-dismiss="modal">Save</button>
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>

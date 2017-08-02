@@ -8,7 +8,13 @@ $(document).ready(function () {
         minTime: '07:00:00',
         maxTime:'21:00:00',
         slotLabelFormat: 'H(:mm)',
-        height: 740
+        height: 740,
+        events: [
+        {
+            title  : 'event1',
+            start  : '2017-08-03T12:30:00'
+        }
+    ]
 
 
     })
@@ -17,4 +23,8 @@ $(document).ready(function () {
 
         $('#modal-title').text($(this).text());
     })
+
+   
+
+
 });
