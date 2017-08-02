@@ -29,22 +29,37 @@
             <li><a href="#">Something</a></li>
             <li><a href="#">Another</a></li>
         </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
     </div>
 </nav>
+<div class="container">
+  	<div class="row">
+      <div class="col-sm-2">
+          <ul id="sidebar" class="nav nav-stacked affix">
+            <li><button type="button" class="btn btn-primary regTime" data-toggle="modal" data-target="#myModal" data-text="regTime">Register time</button></li>
+            <li><a href="#">Mashable</a></li>
+            <li><a href="#">TechCrunch</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">In1</a></li>
+            <li><a href="#">TechMeMe</a></li>
+        </ul>
+      </div>
 
 <body>
-    <!--buttons-->
+    <!--buttons
     <div class="col-md-12">
         <div class="col-md-1"></div>
         <div class="col-md-3">
             <button type="button" class="btn btn-primary regTime" data-toggle="modal" data-target="#myModal" data-text="regTime">Register time</button>
 
         </div>
-
-        <div class="col-md-1"></div>
-    </div>
+    </div>-->
     <!-- calendar -->
-    <div class="col-md-12">
+    
+    <div class="col-md-12 calender">
         <div class="col-md-1"></div>
         <div class="col-md-10" id='calendar'></div>
         <div class="col-md-1"></div>
@@ -76,7 +91,7 @@
                     <div class="col-md-12">
                         <div class="input-group">
 
-                            <input id="search" type="text" class="form-control" name="search" placeholder="Search for projects!" >
+                            <input id="search" type="text" class="form-control" name="search" placeholder="Search for projects!">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
                         </div>
                     </div>
@@ -89,12 +104,12 @@
                         <h3>Til</h3> <input type="datetime-local">
                     </div>
                     <div class="col-md-12">
-                    <h3>Developer comments</h3>
-                    <textarea rows="4" cols="50" placeholder="What did you do?"></textarea>
+                        <h3>Developer comments</h3>
+                        <textarea rows="4" cols="50" placeholder="What did you do?"></textarea>
                     </div>
                     <div class="col-md-12">
-                    <h3>Customer comments</h3>
-                    <textarea rows="4" cols="50" placeholder="What did you do for the customer?"></textarea>
+                        <h3>Customer comments</h3>
+                        <textarea rows="4" cols="50" placeholder="What did you do for the customer?"></textarea>
                     </div>
 
                 </div>
