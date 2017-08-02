@@ -1,4 +1,8 @@
-.body{
+body{
 
-    padding: 100px 100px 100px 100px;
+    padding: 5px 50px 50px 50px;
+}
+.regTime{
+    border: 1px solid black;
+    width: 250px;
 }
