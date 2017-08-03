@@ -10,9 +10,15 @@ $(document).ready(function () {
         slotLabelFormat: 'H(:mm)',
         height: 740,
         events: [
+       
         {
-            title  : 'event1',
+             title  : 'event2',
             start  : '2017-08-03T12:30:00'
+        },
+         {
+            title  : 'event1',
+            start  : '2017-08-09T12:30:00'          
+
         }
     ]
 

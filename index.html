@@ -19,17 +19,7 @@
     <title>Document</title>
 </head>
 
-
 <body>
-    <!--button
-    <div class="col-md-12">
-        <div class="col-md-1"></div>
-        <div class="col-md-3">
-            <button type="button" class="btn btn-primary regTime" data-toggle="modal" data-target="#myModal" data-text="regTime">Register time</button>
-
-        </div>
-    </div>-->
-
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -47,24 +37,20 @@
             </ul>
         </div>
     </nav>
-    <div class="container-fluid col-md-2">
-        <div class="row">
-            <div class="col-sm-4">
-                <div id="sidebar" class="nav nav-stacked ">
-                    <button type="button" class="btn btn-primary regTime" data-toggle="modal" data-target="#myModal" data-text="regTime">Register time</button>
-                    <button type="button" class="btn btn-primary regTime" data-toggle="modal" data-target="#myModal" data-text="regTime">Uh en anden knap!</button>
-                    <button type="button" class="btn btn-primary regTime" data-toggle="modal" data-target="#myModal" data-text="regTime">Tryk her!</button>
-                </div>
-            </div>
+    <div class="buttonCalendar">
+        <div class="col-md-2">
+            <button type="button" class="btn btn-primary regTime" data-toggle="modal" data-target="#myModal" data-text="regTime">Register time</button>
+
         </div>
     </div>
-    <!-- calendar -->
 
-    <div class="col-md-10 calender">
-        <div class="col-md-1"></div>
-        <div class="col-md-10" id='calendar'></div>
-        <div class="col-md-1"></div>
+
+    <div class="col-md-10 calendar">
+
+        <div class="col-md-12 co-centered" id='calendar'></div>
+
     </div>
+
 
     <!-- Modal -->
     <div class="modal fade" id="myModal" role="dialog">
@@ -99,10 +85,10 @@
 
                     <!--date time-->
                     <div class="col-md-6">
-                        <h3>Fra</h3> <input type="datetime-local">
+                        <h3>From</h3> <input type="datetime-local" class="fromTimeDate">
                     </div>
                     <div class="col-md-6">
-                        <h3>Til</h3> <input type="datetime-local">
+                        <h3>To</h3> <input type="datetime-local" class="toTimeDate">
                     </div>
                     <div class="col-md-12">
                         <h3>Developer comments</h3>
@@ -123,8 +109,6 @@
 
         </div>
     </div>
-
-    
 
 </body>
 
