@@ -90,9 +90,10 @@ $(document).ready(function () {
         ]
 
     })
-
-
-
+    $('#timeKnap').click(function () {
+        var timeRegText= "Time registry for " +$('#select2-team-container').text();
+    $('#modalTitle').text(timeRegText);
+})
 
 });
 
