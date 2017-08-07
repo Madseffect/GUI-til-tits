@@ -47,43 +47,43 @@ $(document).ready(function () {
             {
                 title: 'Development',
                 assignment: 'BackEnd',
-                start: '2017-08-04 09:00',
+                start: '2017-08-07 09:00',
                 end: '2017-08-04 11:00',
 
             },
             {
                 title: 'GUI',
                 assignment: 'BackEnd',
-                start: '2017-08-04 11:30',
+                start: '2017-08-07 11:30',
                 end: '2017-08-04 16:00',
 
             },
             {
                 title: 'Development',
                 assignment: 'BackEnd',
-                start: '2017-08-03 09:00',
+                start: '2017-08-08 09:00',
                 end: '2017-08-03 18:00',
 
             },
             {
                 title: 'GUI',
                 assignment: 'BackEnd',
-                start: '2017-08-02 09:00',
-                end: '2017-08-02 14:00',
+                start: '2017-08-09 09:00',
+                end: '2017-08-09 14:00',
 
             },
             {
                 title: 'GUI',
                 assignment: 'BackEnd',
-                start: '2017-08-02 14:15',
-                end: '2017-08-02 18:00',
+                start: '2017-08-09 14:15',
+                end: '2017-08-09 18:00',
 
             },
             {
                 title: 'Business',
                 assignment: 'BackEnd',
-                start: '2017-08-01 09:15',
-                end: '2017-08-01 15:00',
+                start: '2017-08-10 09:15',
+                end: '2017-08-10 15:00',
 
             },
 
