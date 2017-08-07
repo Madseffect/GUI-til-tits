@@ -87,22 +87,22 @@ $(document).ready(function () {
 
             },
 
-            ]
+        ]
 
     })
 
 
 
-  
+
 });
 
 
 $(document).ready(function () {
-   
+
     $(".teammates").select2({
         placeholder: 'Choose a Label',
     });
-    
+
 });
 
 $(document).ready(function () {
@@ -121,8 +121,7 @@ $(document).ready(function () {
 $(document).ready(function () {
 
     $(".label").select2({
-        placeholder: 'Choose Label', 
+        placeholder: 'Choose Label',
     });
 
 });
-

@@ -65,20 +65,20 @@
     </nav>
 
     <div class="container-fluid" style="padding-left: 0px;">
-    <div class="col-md-12 overskrift">
-        <div col-md-12>
-            <div class="col-md-1 img">
-                <img src="~/images/LOGO.jpg" style="width:200px; height: 100px;" />
+        <div class="col-md-12 overskrift">
+            <div col-md-12>
+                <div class="col-md-1 img">
+                    <img src="~/images/LOGO.jpg" style="width:200px; height: 100px;" />
+                </div>
+                <div class="col-md-11" style="padding-left:60px;">
+                    <h1 style="text-align: center;">TITS - Time Information Tracking System</h1>
+                </div>
             </div>
-            <div class="col-md-11" style="padding-left:60px;">
-                <h1 style="text-align: center;">TITS - Time Information Tracking System</h1>
-            </div>
-        </div>
-        <div class="col-md-3" style="padding-left: 0 !important;">
-            <div class="col-md-12" style="margin-top:50px;">
-                <h4>Teammates</h4>
-                <p>
-                    <select class="teammates" style="width:202px">
+            <div class="col-md-3" style="padding-left: 0 !important;">
+                <div class="col-md-12" style="margin-top:50px;">
+                    <h4>Teammates</h4>
+                    <p>
+                        <select class="teammates" style="width:202px">
                         <optgroup label="Favorites">
                             <option value="R">Rasmus </option>
                             <option value="C">Christoffer</option>
@@ -92,55 +92,55 @@
                             <option value="S">Alice</option>
                         </optgroup>
                     </select>
-                </p>
+                    </p>
+                </div>
+                <div class="col-md-12" style="margin-top:20px;">
+                    <button type="button" class="btn btn-info knap" data-toggle="modal" data-target="#myModal1">Create new time registry</button>
+                </div>
+                <div class="col-md-12" style="margin-top:20px;">
+                    <button type="button" class="btn btn-warning" style="width: 200px;">Start timer</button>
+                </div>
             </div>
-            <div class="col-md-12" style="margin-top:20px;">
-                <button type="button" class="btn btn-info knap" data-toggle="modal" data-target="#myModal1">Create new time registry</button>
-            </div>
-            <div class="col-md-12" style="margin-top:20px;">
-                <button type="button" class="btn btn-warning" style="width: 200px;">Start timer</button>
-            </div>
-        </div>
-        <div class="col-md-9">
-            <div id='calendar'></div>
-            <div class="col-md-6">
-                <button type="button" class="btn btn-info sendknap">Save</button>
-            </div>
-            <div class="col-md-6">
-                <button type="button" class="btn btn-success sendknap">Submit for Approval</button>
+            <div class="col-md-9">
+                <div id='calendar'></div>
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-info sendknap">Save</button>
+                </div>
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-success sendknap">Submit for Approval</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="modal fade" id="myModal1" role="dialog">
-    <div class="modal-dialog">
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title" id="modalTitle">Time registry</h4>
-            </div>
-            <div class="col-md-12 modal-body">
-                <div class="col-md-12">
-                    <div class="col-md-6" style=" padding-left: 0px">
-                        <h4>Date</h4>
-                        <input type="date" style="border-radius:5px; width:250px; height: 32px;">
-                    </div>
-                    <div class="col-md-6">
-                        <div class="col-md-6" style="padding: 0px;">
-                            <h4>Time start</h4>
-                            <input type="time" class="form-control" placeholder=" fx. 4.5t" style="width:115px; height: 32px;">
+    <div class="modal fade" id="myModal1" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" id="modalTitle">Time registry</h4>
+                </div>
+                <div class="col-md-12 modal-body">
+                    <div class="col-md-12">
+                        <div class="col-md-6" style=" padding-left: 0px">
+                            <h4>Date</h4>
+                            <input type="date" style="border-radius:5px; width:250px; height: 32px;">
                         </div>
                         <div class="col-md-6">
-                            <h4>Time end</h4>
-                            <input type="time" class="form-control" placeholder=" fx. 4.5t" style="width:115px; height: 32px;">
+                            <div class="col-md-6" style="padding: 0px;">
+                                <h4>Time start</h4>
+                                <input type="time" class="form-control" placeholder=" fx. 4.5t" style="width:115px; height: 32px;">
+                            </div>
+                            <div class="col-md-6">
+                                <h4>Time end</h4>
+                                <input type="time" class="form-control" placeholder=" fx. 4.5t" style="width:115px; height: 32px;">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="col-md-6" style="padding-left:0px; height: 32px;">
-                        <h4>Client/Project</h4>
-                        <select class="projects" style="width:250px">
+                    <div class="col-md-12">
+                        <div class="col-md-6" style="padding-left:0px; height: 32px;">
+                            <h4>Client/Project</h4>
+                            <select class="projects" style="width:250px">
                             <optgroup label="Latest">
                                 <option value="R">Magasin </option>
                                 <option value="C">Fætter BR</option>
@@ -152,10 +152,10 @@
                                 <option value="S">NCG</option>
                             </optgroup>
                         </select>
-                    </div>
-                    <div class="col-md-6">
-                        <h4>Assignment</h4>
-                        <select class="assignment" style="width:250px; height: 32px;">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Assignment</h4>
+                            <select class="assignment" style="width:250px; height: 32px;">
                             <optgroup label="Lates">
                                 <option value="R">Development </option>
                                 <option value="C">BackEnd</option>
@@ -167,12 +167,12 @@
                                 <option value="S">Other</option>
                             </optgroup>
                         </select>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="col-md-6" style="padding-left:0px;">
-                        <h4>Label</h4>
-                        <select class="label" multiple="multiple" style="width:250px">
+                    <div class="col-md-12">
+                        <div class="col-md-6" style="padding-left:0px;">
+                            <h4>Label</h4>
+                            <select class="label" multiple="multiple" style="width:250px">
                             <optgroup label="Lates">
                                 <option value="R">#Label-A </option>
                                 <option value="C">#Label-B</option>
@@ -184,36 +184,36 @@
                                 <option value="S">#Label-F</option>
                             </optgroup>
                         </select>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>TrackingID</h4>
+                            <textarea type="text" style="width:250px; border-radius:5px; height:32px;" rows="1" placeholder="Write TrackingID..."></textarea>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <h4>TrackingID</h4>
-                        <textarea type="text" style="width:250px; border-radius:5px; height:32px;" rows="1" placeholder="Write TrackingID..."></textarea>
+                    <div class="col-md-12">
+                        <div class="col-md-6" style="padding-left:0;">
+                            <h4>Comment External</h4>
+                            <textarea class="textbox" rows="4" style="border-radius:5px;" placeholder="Write comment here"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Comment Internal</h4>
+                            <textarea class="textbox" rows="4" style="border-radius:5px;" placeholder="Write comment here"></textarea>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-12">
-                    <div class="col-md-6" style="padding-left:0;">
-                        <h4>Comment External</h4>
-                        <textarea class="textbox" rows="4" style="border-radius:5px;" placeholder="Write comment here"></textarea>
-                    </div>
-                    <div class="col-md-6">
-                        <h4>Comment Internal</h4>
-                        <textarea class="textbox" rows="4" style="border-radius:5px;" placeholder="Write comment here"></textarea>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <div class="col-md-12">
-                
+                <div class="modal-footer">
+                    <div class="col-md-12">
+
                         <button type="button" class="btn btn-success" style="background-color: orange" data-dismiss="modal">Start timer</button>
-                  
-                    <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
                 </div>
-              
             </div>
         </div>
     </div>
-</div>
 
 </body>
 
