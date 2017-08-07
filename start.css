@@ -1,5 +1,5 @@
 body {
-    padding-top: 0px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -52,6 +52,8 @@ textarea {
   
 }
 
+
+
 .sendknap {
     width: 100%;
     margin-top: 35px;
@@ -73,9 +75,6 @@ textarea {
     max-width: 535px;
 }
 
-#containerAll{
-    margin-top: 50px;
-}
 
 
 
