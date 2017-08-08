@@ -41,6 +41,17 @@ $(document).ready(function () {
 
         },
 
+        select: function (start, end, jsEvent, view) {
+                    var abc = prompt('Enter Title');
+                    var allDay = !start.hasTime && !end.hasTime;
+                    var newEvent = new Object();
+                    newEvent.title = abc;
+                    newEvent.start = moment(start).format();
+                    newEvent.allDay = false;
+                    $('#calendar').fullCalendar('renderEvent', newEvent);
+
+                },
+
 
 
         events: [
@@ -94,6 +105,10 @@ $(document).ready(function () {
         var timeRegText= "Time registry for " +$('#select2-team-container').text();
     $('#modalTitle').text(timeRegText);
 })
+var test= $('#calendar').fullCalendar('clientEvents');
+console.log(test);
+
+    
 
 });
 
